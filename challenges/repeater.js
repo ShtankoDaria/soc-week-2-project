@@ -5,6 +5,7 @@ function repeater(phrase, numb) {
   var rep = Number(numb);
   return phrase = phrase.repeat(rep);
 }
+
 /*function repeater(phrase, number) {
   var rpt = '';
     for (var i = 0; i < number; i++) {
