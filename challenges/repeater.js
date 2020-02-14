@@ -3,7 +3,7 @@ console.log('repeater script has loaded');
 // write this function!
 function repeater(phrase, numb) {
   var rep = Number(numb);
-  return phrase = phrase.repeat(rep);
+  return phrase = phrase.repeat(rep) + "<br>";
 }
 
 /*function repeater(phrase, number) {
