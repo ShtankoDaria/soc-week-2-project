@@ -1,7 +1,12 @@
 console.log('madlib script has loaded');
 
 // write this function!
-function madlib() {
+function madlib(noun, verb, adjective) {
+  if (noun.length >= verb.length){
+  return String( "the " + adjective + " " + noun + " " +"loves to " + verb + " in the summer");
+  } else if (noun.length < verb.length){
+    return String( "when " + adjective + " " + noun + " falls " + ", " + noun + " begins " + verb);
+    }
 
 }
 
