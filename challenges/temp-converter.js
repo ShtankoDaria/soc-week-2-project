@@ -29,9 +29,9 @@ console.assert(tempConverter(500, 'Farenheit') === 'Farenheit is not supported',
 
 function tempConverterHandler() {
   // prompt the user for a noun, verb and adjective
-  const userTempStr = prompt('enter a temperature to convert');
+  const userDegrees = prompt('enter a temperature to convert');
   // cast userDegreesStr to a Number, and assign the value to userDecrees
-  const userDegrees = prompt('would you like to convert to farenheit or celcius?');
+  const userTempStr = prompt('would you like to convert to farenheit or celcius?');
   let userDecrees = Number (userDegrees);
   let userTemp = String (userTempStr);
 
